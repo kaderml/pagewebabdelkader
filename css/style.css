@@ -44,10 +44,15 @@ h1{
 }
 .logo{
     width: 40px;
-
 }
 
+.space{
+  display: flex;
+justify-content: space-around;
+
+}
 .display{
+ 
   display: flex;
 justify-content: space-around;
 align-items:center;
@@ -55,8 +60,8 @@ align-items:center;
     border: 1px solid #000;
     border-radius: 10px;
     box-shadow: #000;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px ;
+    margin: 10px;
 }
 .container {
     max-width: AUTO;
