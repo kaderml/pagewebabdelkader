@@ -18,88 +18,100 @@
 
             <nav>
 
-                <a href="/">Accueil</a>
-                <a href="/about">À propos</a>
-                <a href="/services">Services</a>
-                <a href="/contact">Contact</a>
+                <a href="#">Accueil</a>
+                <a href="#À propos">À propos</a>
+                <a href="#jeu">jeu</a>
+                <a href="#contact">Contact</a>
 
             </nav>
         </header>
         <main>
             <h1>ABDELKADER HEMDELLAH</h1>
 
-            <section class="row">
+            <section class="row" id="À propos">
                 <img src="images/photo.jpeg" alt="voici mon photo" class="col-4">
                 <div class="col-7">
                     <h2>Developpeur Web</h2>
-                    <p>Plongez dans un monde fantastique où les pièces d'or à récolter sont votre principal challenge . Dans " Le Héros des Pièces", vous incarnez un aventurier courageux  déterminé à récupérer un trésor légendaire. Pour y parvenir, vous devrez affronter des ennemis redoutables : l'Ogre et ses partisans.
+                    <p>Plongez dans un monde fantastique où les pièces d'or à récolter sont votre principal challenge .
+                        Dans " Le Héros des Pièces", vous incarnez un aventurier courageux déterminé à récupérer un
+                        trésor légendaire. Pour y parvenir, vous devrez affronter des ennemis redoutables : l'Ogre et
+                        ses partisans.
 
 
                         Utilisez les flèches directionnelles du clavier pour guider
-                        notre héros Jauneboy  et pour l'arrêter flèche bas
-                        </p>
-                    <div class="button">
-                        <a href="">mon cv</a>
+                        notre héros Jauneboy et pour l'arrêter flèche bas
+                    </p>
+                    <div>
+                        <a class="button" href="fichier/CV HEMDELLAH ABdelkader.pdf" target="_blank">mon cv</a>
                     </div>
                 </div>
             </section>
-            <h2>presentation du produit</h2>
-            <p>Plongez dans un monde fantastique où les pièces d'or à récolter sont votre principal challenge . Dans " Le Héros des Pièces", vous incarnez un aventurier courageux  déterminé à récupérer un trésor légendaire. Pour y parvenir, vous devrez affronter des ennemis redoutables : l'Ogre et ses partisans.
+            <section id="jeu">
+                <h2>presentation du produit</h2>
+                <p>Plongez dans un monde fantastique où les pièces d'or à récolter sont votre principal challenge . Dans
+                    " Le Héros des Pièces", vous incarnez un aventurier courageux déterminé à récupérer un trésor
+                    légendaire. Pour y parvenir, vous devrez affronter des ennemis redoutables : l'Ogre et ses
+                    partisans.
 
 
-                Utilisez les flèches directionnelles du clavier pour guider
-                notre héros Jauneboy  et pour l'arrêter flèche bas
-                 
-            </p>
-            <div class="row">
-                <img src="images/stage.png" class="col-6" alt="le niveau 2 du jeu">
-                <img src="images/gema.jpg" class="col-6" alt="si vous tomber va s'afficher">
-            </div>
-            <div class="display">
-                <div>
-                    <p>AGE:</p>
-                    <p>5+</p>
+                    Utilisez les flèches directionnelles du clavier pour guider
+                    notre héros Jauneboy et pour l'arrêter flèche bas
+
+                </p>
+                <div class="row">
+                    <img src="images/stage.png" class="col-6" alt="le niveau 2 du jeu">
+                    <img src="images/gema.jpg" class="col-6" alt="si vous tomber va s'afficher">
                 </div>
-                <div>
-                    <P>LES CYBLES</P>
-                    <P>18 => 24 ans</P>
+                <div class="display">
+                    <div class="col col-4">
+                        <p>AGE:</p>
+                        <p>5+</p>
+                    </div>
+                    <div class="col col-4">
+                        <P>LES CYBLES</P>
+                        <P>18 => 24 ans</P>
+                    </div>
+                    <div class="col col-4">
+                        <p>NOMBRE DE NIVEAUX</p>
+                        <p>3</p>
+                    </div>
                 </div>
-                <div>
-                    <p>NOMBRE DE NIVEAUX</p>
-                    <p>3</p>
+
+                <p class="p">pour jouer le jeu vous pouvez cliquer <a href="https://declick.net/execute/22750">ici</a>
+                </p>
+            </section>
+            <section id="contact">
+                <div class="container">
+                    <h3>CONTACTEZ MOI</h3>
+                    <form action="#">
+                        <div>
+                            <Label for="nom">nom</Label>
+                            <input type="text" name="nom" id="nom"><br>
+                        </div>
+                        <div>
+                            <Label for="prenom">prénom</Label>
+                            <input type="text" name="prenom" id="prenom"><br>
+                        </div>
+                        <div>
+
+                            <Label for="email">email</Label>
+                            <input type="email" name="email" id="email"><br>
+
+                        </div>
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message"></textarea><br>
+                        </div>
+                        <strong><input type="submit" value="ENVOYER" name="submit"></strong>
+
+                    </form>
                 </div>
-            </div>
-
-            <div class="container">
-                <h3>CONTACTEZ MOI</h3>
-                <form action="#">
-                    <div>
-                        <Label for="nom">nom</Label>
-                        <input type="text" name="nom" id="nom"><br>
-                    </div>
-                    <div>
-                        <Label for="prenom">prénom</Label>
-                        <input type="text" name="prenom" id="prenom"><br>
-                    </div>
-                    <div>
-
-                        <Label for="email">email</Label>
-                        <input type="email" name="email" id="email"><br>
-
-                    </div>
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message"></textarea><br>
-                    </div>
-                    <input type="submit" value="envoyer" name="submit">
-
-                </form>
-            </div>
+            </section>
         </main>
         <footer class="foot">
             <div class="icone">
-                <p><i class="fas fa-phone"></i>0784701728</p>
-                <p><i class="fas fa-envelope"></i> contact@example.com</p>
+                <p><i class="fas fa-phone kk"></i>0784701728</p>
+                <p><i class="fas fa-envelope kk"></i> contact@example.com</p>
 
             </div>
         </footer>

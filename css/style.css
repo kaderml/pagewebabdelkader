@@ -5,7 +5,15 @@
         width: 80%;
         margin: 0 auto;
     }
+
+a{
+  text-decoration:none;
+}
+.p{
+  text-align: center;
+}
 body{
+  line-height: 2;
     background-color: beige;
     margin: 0;
     padding: 0;
@@ -19,28 +27,37 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .button{
+  color: #000;
     padding: 10px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     display: inline-block;
     border: 2px solid black;
     font-size: 1em;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
 }
 .nav{
+    
     background-color: aliceblue;
     display: flex;
     justify-content:space-between;
     align-items:center;
-    padding: 0px ;
+    padding: 7px ;
+    margin: 5px;
     border: 1px solid #000;
     border-radius: 10px;
-    box-shadow: #000;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .nav a{
+
     padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .logo{
     width: 40px;
@@ -49,23 +66,32 @@ h1{
 
 .display{
   display: flex;
-justify-content: space-around;
-align-items:center;
-    padding: 0px ;
-    border: 1px solid #000;
-    border-radius: 10px;
-    box-shadow: #000;
-    padding: 20px;
-    margin: 20px;
+  justify-content: space-around;
+  align-items:center;
+  
 }
+.col{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+      padding: 0px ;
+      border: 1px solid #000;
+      border-radius: 10px;
+      box-shadow: #000;
+      padding: 20px;
+      margin: 20px;
+      cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
+  }
 .container {
     max-width: AUTO;
     margin: 50px auto;
-    padding: 10px;
+    padding: 50px;
     width: 60%;
     background-color: #737b83;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
   }
   h3,h2{
     text-align: center;
@@ -90,10 +116,12 @@ align-items:center;
     border: 1px solid #ccc;
     border-radius: 60px;
   }
-  
+ 
   input[type="submit"] {
     display: block;
-    width: 100%;
+    font-size: 15px;
+    width: 50%;
+    margin: 0 auto;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -111,10 +139,14 @@ align-items:center;
     justify-content:space-between;
     /*display:inline-block;*/
     width: 100%;
-    padding: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0 auto;
     border: 1px solid #000;
     border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
 }
   .foot{
     padding: 10px;
@@ -122,6 +154,7 @@ align-items:center;
 .row {
     display: flex;
     flex-flow: row wrap;
+    
     }
 .col-1 {
     width: 8.333333%;
@@ -147,6 +180,7 @@ align-items:center;
     .col-6 {
     width: 50%;
     padding: 25px;
+    
     }
     .col-7 {
     width: 58.333333%;
